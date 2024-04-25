@@ -1,3 +1,17 @@
-.btn {
-    background-color: bisque;
+/* 直接目标特定的按钮，覆盖Bootstrap样式 */
+.btn-outline-success, .card .btn-primary {
+    background-color: rgb(114, 114, 114); /* 背景颜色 */
+    border-color: rgb(114, 114, 114); /* 边框颜色 */
+    color: rgb(255, 248, 238); /* 文本颜色 */
+}
+
+/* 改变按钮在鼠标悬停时的颜色 */
+.btn-outline-success:hover, .card .btn-primary:hover {
+    background-color: rgb(205, 88, 16); /* 鼠标悬停时的背景颜色 */
+    border-color: rgb(255, 255, 255); /* 鼠标悬停时的边框颜色 */
+}
+
+
+nav.navbar,body {
+    background-color: #fff5bd !important; /* 强制应用这个颜色 */
 }
